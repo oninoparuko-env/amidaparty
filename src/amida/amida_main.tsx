@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import "./App.css";
+import "./amida_main.css";
 
 type Ladder = {
   columnCount: number;
