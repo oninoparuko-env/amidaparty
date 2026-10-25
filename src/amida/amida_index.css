@@ -64,3 +64,36 @@ svg {
   background: #e9dfff;
   color: #49335f;
 }
+
+
+.home-return-link {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 10px 14px;
+  border: 1px solid #e8e1d8;
+  border-radius: 10px;
+  background: #fff;
+  color: #6b5948;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 8px #34313b12;
+}
+
+.home-return-link:hover {
+  background: #f8f6f2;
+}
+
+@media (max-width: 480px) {
+  .home-return-link {
+    top: 10px;
+    left: 10px;
+    min-height: 38px;
+    padding: 9px 12px;
+  }
+}

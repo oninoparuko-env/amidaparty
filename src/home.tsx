@@ -24,13 +24,16 @@ export default function Home() {
           <span className="tool-arrow">→</span>
         </a>
 
-        <div className="tool-card tool-card-coming">
-          <span className="tool-icon">✨</span>
+       
+        <a className="tool-card" href="/schedule">
+          <span className="tool-icon">📅</span>
           <span className="tool-info">
-            <strong>新しいツール</strong>
-            <span>便利なツールを少しずつ追加予定。</span>
+            <strong>スケジュール調整</strong>
+            <span>みんなの空き時間を集めて、予定を決めよう。</span>
           </span>
-        </div>
+          <span className="tool-arrow">→</span>
+        </a>
+
       </section>
 
       <footer className="home-footer">
