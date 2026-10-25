@@ -2,7 +2,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./amida/amida_index.css";
-import Home from "./Home";
+import Home from "./home";
 import AmidaIndex from "./amida/amida_index";
 
 const path = window.location.pathname.replace(/\/+$/, "") || "/";
